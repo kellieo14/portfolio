@@ -1,0 +1,499 @@
+/* LEFT COL */
+.intro-content-div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.intro .row {
+    display: table;
+}
+
+.name {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #ff0000;
+}
+
+.intro {
+    height: 100vh;
+    background-image: url('cartoons/brickWall.png');
+}
+
+.profile-pic {
+    width: 190px;
+}
+
+.logo {
+    width: 70px;
+    margin: 6px;
+}
+
+.social-row .logo:hover {
+    cursor: pointer;
+    border: 4px solid black;
+    border-radius:50%;
+}
+
+.social-row {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+/* RIGHT COL */
+.title {
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.paragraph {
+    color: #787776;
+    width: 80%;
+    z-index: 1;
+}
+
+.divider {
+    height: 10px;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ABOUT ME */
+.about-me {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.about-me h5 {
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.75px;
+}
+
+.interest-div {
+    text-align: center;
+}
+
+/* PORTFOLIO */
+.project-example {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.projects {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.screenshot {
+    width: 90%;
+    display: block;
+    position: relative;
+    top: 30%;
+    margin-bottom: 20px;
+    cursor: url("icons/cursor2.png"), hand;
+}
+
+.screenshot:hover {
+    opacity: 0.7;
+}
+
+/* CONTACT */
+.form-control:focus {
+    box-shadow: 7px 5px 5px red;
+    border: 1px solid red;
+}
+
+.contact-container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contact {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+/* MODAL */
+.modal-body {
+    padding: 20px;
+    margin: 0;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.modal-body h3{
+    font-family: 'Staatliches', cursive;
+}
+
+.modal-close-button {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5%;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* SVG STYLES */
+/* Town */
+.town {
+    max-width: 400px;
+    height: 350px;
+}
+
+#path890:hover {
+    fill: #6DA3C6 !important;
+}
+
+#path898:hover, #path902:hover, #path900:hover {
+    fill: #A0D4D8 !important;
+}
+
+#path892:hover {
+    fill: #FFB477 !important;
+}
+
+#path828:hover, #path872:hover, #path904:hover, #path1008:hover, #path1242:hover {
+    fill: gray !important;
+}
+
+#path984:hover {
+    fill: #F2AE96 !important;
+}
+
+#path1004:hover, #path994:hover, #path1080:hover {
+    fill: #BF3B3B !important;
+}
+
+#path1006:hover, #path986:hover, #path988:hover, #path1006:hover, #path990:hover, #path992:hover, #path1064:hover, #path1066:hover       {
+    fill: #FFE3CD !important;
+}
+
+#path1018:hover, #path1028:hover, #path1062:hover, #path1048:hover, #path1038:hover, #path1040:hover, #path1012:hover, #path1016:hover, #path1164:hover, #path1172:hover, #path1252:hover, #path1254:hover, #path1186:hover, #path1206:hover, #path1196:hover, #path1236:hover, #path1238:hover, #path1346:hover, #path1410:hover, #path1424:hover, #path1444:hover, #path1506:hover, #path1512:hover, #path1514:hover, #path1510:hover {
+    fill: #FFF2C1 !important;
+}
+
+#path1088:hover, #path1090:hover, #path1058:hover, #path1092:hover, #path1094:hover, #path1010:hover, #path1014:hover {
+    fill: #FAE1D8 !important;
+}
+
+#path1060:hover {
+    fill: #A0D4D8 !important;
+}
+
+#path1154:hover {
+    fill: #FFE2AD !important;
+}
+
+#path1160:hover, #path1232:hover, #path1170:hover   {
+    fill: #EF964C !important;
+}
+
+#path1162:hover, #path1156:hover, #path1158:hover, #path1178:hover, #path1256:hover, #path1192:hover, #path1212:hover, #path1202:hover, #path1248:hover, #path1258:hover, #path1260:hover {
+    fill: #F7CFAD !important;
+}
+
+#path1234:hover, #path1250:hover {
+    fill: #86B26C !important;
+}
+
+#path1336:hover, #path1334:hover {
+    fill: #CBE7E9 !important;
+}
+
+#path1470:hover {
+    fill: #F0AAAA !important;
+}
+
+#path1340:hover, #path1342:hover, #path1344:hover, #path1352:hover, #path1412:hover, #path1426:hover, #path1446:hover, #path1436:hover {
+    fill: #F9E0CA !important;
+}
+
+#path1338:hover {
+    fill: #B6C1C1 !important;
+}
+
+#path1354:hover, #path1356:hover, #path1528:hover {
+    fill: #4990BC !important;
+}
+
+/* Standing Plant */
+.plant {
+    position: absolute;
+    bottom: -90px;
+    right: -29px;
+    width: 170px;
+}
+
+#path4726:hover {
+    fill: #FFCDB5 !important;
+}
+
+#path4728:hover {
+    fill: #F9D9C0 !important;
+}
+
+#path4722:hover {
+    fill: #726358 !important;
+}
+
+#path4724:hover {
+    fill: #FFCDB5 !important;
+}
+
+#path5010:hover {
+    fill: green !important;
+}
+
+#path5002:hover {
+    fill: rgb(20, 54, 20) !important;
+}
+
+#path5000:hover {
+    fill: #7AAC4D !important;
+}
+
+#path5006:hover {
+    fill: #527334 !important;
+}
+
+#path5004:hover {
+    fill: #7AAC4D !important;
+}
+
+#path5008:hover {
+    fill: #132819 !important;
+}
+
+#ellipse4978:hover {
+    fill: gray !important;
+}
+
+#ellipse4984:hover {
+    fill: #545454 !important;
+}
+
+#ellipse4964:hover {
+    fill: rgb(146, 145, 145) !important;
+}
+
+#ellipse4974:hover {
+    fill: rgb(146, 145, 145) !important;
+}
+
+#ellipse4980:hover {
+    fill: #2E2E2E !important;
+}
+
+#ellipse4962:hover {
+    fill: #2E2E2E !important;
+}
+
+#ellipse4982:hover {
+    fill: #C0C0C0 !important;
+}
+
+#ellipse4972:hover {
+    fill: #545454 !important;
+}
+
+#ellipse4966:hover {
+    fill: #A1A1A1 !important;
+}
+
+#path4695:hover, #path4697:hover, #path4699:hover,#path4703:hover, #path4705:hover, #path4707:hover, #path4709:hover, #path4711:hover, #path4713:hover, #path4715:hover {
+    fill: #FFF6C6 !important;
+}
+
+/* Hanging Plant CSS */
+.hanging-plant {
+    width: 160px;
+    position: absolute;
+    right: 0;
+    top: -100px;
+    z-index: 0;
+}
+
+#path1704:hover {
+    fill: #57a871 !important;
+    stroke: #0C2A21;
+}
+
+#path1706:hover {
+    fill: #4a9971 !important;
+    stroke: #0C2A21;
+}
+
+#path1708:hover {
+    fill: #207259 !important;
+    stroke: #0C2A21;
+}
+
+#path1698:hover {
+    fill: #49a062 !important;
+    stroke: #0C2A21;
+}
+
+#path1687:hover {
+    fill: #DDFCFF !important;
+}
+
+#path1700:hover {
+    fill: #95D15E !important;
+    stroke: #0C2A21;
+}
+
+#path1702:hover {
+    fill: #385049 !important;
+    stroke: #0C2A21;
+}
+
+#path1789:hover {
+    fill: #ffffb7 !important;
+}
+
+/* Interest Icons CSS */
+.fiddle, .baking, .plane, .camping {
+    width: 150px;
+    height: 90px;
+    text-align: center;
+}
+
+.interest-div #path915:hover {
+    fill: #DD9F68 !important;
+}
+
+.interest-div #path1537:hover, .interest-div #path1555:hover, .interest-div #path1508:hover {
+    fill: #E2BA8E !important;
+}
+
+.interest-div #path1539:hover, .interest-div #path1541:hover  {
+    fill: #ADCDE1 !important;
+}
+
+.interest-div #path1592:hover {
+    fill: #ACE0D1 !important;
+}
+
+.interest-div #path826:hover, .interest-div #path828:hover, .interest-div #path832:hover, .interest-div #path830:hover, .interest-div #path834:hover, .interest-div #path836:hover {
+    fill: #A5C9D0 !important;
+}
+
+.interest-div #path838:hover, .interest-div #path840:hover, .interest-div #path848:hover, .interest-div #ellipse850:hover, .interest-div #ellipse852:hover, .interest-div #ellipse854:hover, .interest-div #ellipse856:hover, .interest-div #path842:hover {
+    fill: #DDDDDD !important;
+}
+
+.interest-div #path1498:hover {
+    fill: #62824F !important;
+}
+
+.interest-div #path1502:hover, .interest-div #path1514:hover {
+    fill: #36472C !important;
+}
+
+.interest-div #path1552:hover, .interest-div #path1556:hover, .interest-div #path1581:hover, .interest-div #path1587:hover, .interest-div #path1591:hover, .interest-div #path1585:hover {
+    fill: #BC8053 !important;
+}
+
+.interest-div #path1601:hover {
+    fill: #BC2C00 !important;
+}
+
+.interest-div #path1603:hover {
+    fill: #FFA93A !important;
+}
+
+/* Wood */
+.wood-image {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wood-div {
+    width: 80px;
+    height: 100vh;
+}
+
+/* Hedgehog */
+.hedgehog {
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+}
+
+@media (max-width: 991px) {
+    .portfolio {
+        overflow-y: auto;
+        background-color:white;
+    }
+
+    .intro-content-div {
+        width: 100vw;
+        padding-top: 15%;
+    }
+
+    .plant {
+        display: none;
+    }
+
+    .wood-div {
+        display: none;
+        padding: 0;
+    }
+
+    .wood-side {
+        margin-bottom: 30px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .town {
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .hanging-plant {
+        display: none;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .portfolio {
+        border-left: 3px solid black;
+        overflow-y: auto;
+        max-height: 100vh;
+        background-color: white;
+        padding-top: 60px;
+    }
+
+    .wood-side {
+        display: none;
+    }
+
+    .hedgehog {
+        display: none;
+    }
+    
+}
