@@ -1,3 +1,4 @@
+
 /* LEFT COL */
 .intro-content-div {
     display: table-cell;
@@ -62,7 +63,7 @@
     display: block;
     position: relative;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* ABOUT ME */
@@ -77,14 +78,115 @@
     letter-spacing: 1.75px;
 }
 
+.skills {
+    padding-top: 20px;
+}
+
+.soft-skills-container h3 {
+    background-color: black;
+    color: white;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.75px;
+    font-size: 18px;
+    padding: 5px;
+    text-align: left;
+}
+
+.soft-skills {
+    width: 180px;
+}
+
+.soft-skills-border ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 10px;
+    color: #787776;
+}
+
+.hard-skills-container h3 {
+    background-color: black;
+    color: white;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.75px;
+    font-size: 18px;
+    padding: 5px;
+    text-align: right;
+}
+
+.hard-skills-container {
+    padding-right: 20px;
+}
+
+.hard-skills-border ul {
+    list-style: none;
+    text-align: right;
+    padding-left: 10px;
+    color: #787776;
+}
+
+.design-skills-container h3 {
+    background-color: black;
+    color: white;
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.75px;
+    font-size: 18px;
+    padding: 5px;
+    text-align: left;
+}
+
+.hide-on-large .design-skills {
+    width: 180px;
+}
+
+.design-skills-border ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 10px;
+    color: #787776;
+}
+
+.cartoon-profile img {
+    height: 363px;
+}
+
+.cartoon-profile {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.interest .paragraph {
+    padding-bottom: 10px;
+}
+
 .interest-div {
     text-align: center;
 }
 
+.interest-section {
+    width: 100%;
+    background-color: red
+}
+
+.interest {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 /* PORTFOLIO */
+
+.project-row {
+    margin-bottom: 20px;
+}
 .project-example {
     width: 85%;
     margin: 0 auto;
+}
+
+.project-title {
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.75px;
 }
 
 .projects {
@@ -105,6 +207,38 @@
     opacity: 0.7;
 }
 
+.portfolio-title {
+    text-transform: uppercase;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1.75px;
+    background-color: black;
+    color: white;
+}
+
+.portfolio-title-section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-title-div {
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -22px;
+    padding-right: 30px;
+
+}
+
+.portfolio-divider {
+    width: 88%;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
 /* CONTACT */
 .form-control:focus {
     box-shadow: 7px 5px 5px red;
@@ -123,6 +257,13 @@
 
 .contact-form {
     margin-bottom: 30px;
+}
+
+.send-message:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    box-shadow: 7px 5px 5px red;
 }
 
 /* MODAL */
@@ -477,6 +618,10 @@ button:hover {
     .paragraph {
         width: 100%;
     }
+
+    .interest-div {
+        padding-top: 20px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -495,5 +640,39 @@ button:hover {
     .hedgehog {
         display: none;
     }
+
+    .interest .paragraph {
+        width: 100%;
+    }
+}
+
+@media (max-width: 599px) {
+    .hide-on-small {
+        display: none;
+    }
+
+    .design-skills-container h3 {
+        text-align: center;
+        padding-right: 95px;
+    }
     
+    .design-skills-border ul {
+        text-align: center;
+        padding-right: 95px;
+    }
+
+    .design-skills-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .hard-skills-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .hide-on-large {
+        display: none;
+    }
 }
