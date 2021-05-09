@@ -57,6 +57,9 @@
     z-index: 1;
 }
 
+.project-paragraph {
+    color: #787776;
+}
 .divider {
     height: 10px;
     width: 100%;
@@ -92,10 +95,6 @@
     text-align: left;
 }
 
-.soft-skills {
-    width: 180px;
-}
-
 .soft-skills-border ul {
     list-style: none;
     text-align: left;
@@ -119,6 +118,7 @@
 }
 
 .hard-skills-border ul {
+    padding-top: 10px;
     list-style: none;
     text-align: right;
     padding-left: 10px;
@@ -201,6 +201,35 @@
     top: 30%;
     margin-bottom: 20px;
     cursor: url("icons/cursor2.png"), hand;
+}
+
+.art-project-example {
+    margin: 10px;
+}
+
+.art-project-row {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.art {
+    max-height: 225px;
+    display: block;
+    position: relative;
+    top: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.art-project-title {
+    font-family: "Staatliches", cursive;
+    letter-spacing: 1.75px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .screenshot:hover {
@@ -373,6 +402,7 @@ button:hover {
 
 #path1354:hover, #path1356:hover, #path1528:hover {
     fill: #4990BC !important;
+    transition: opacity 2.5s 3s, left 600ms 3s, top 1.5s 3s;
 }
 
 /* Standing Plant */
@@ -473,7 +503,8 @@ button:hover {
 }
 
 #path1704:hover {
-    fill: #57a871 !important;
+    fill: red !important;
+    /* fill: #57a871 !important; */
     stroke: #0C2A21;
 }
 
@@ -621,6 +652,10 @@ button:hover {
 
     .interest-div {
         padding-top: 20px;
+    }
+
+    .soft-skills {
+        width: 180px;
     }
 }
 
